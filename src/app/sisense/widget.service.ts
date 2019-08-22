@@ -14,8 +14,7 @@ export class WidgetService {
 
   //  Initialize variables
   isReady: boolean = false;
-  //server: string = 'http://blrdevfxdauto01.corp.tangoe.com:8081';
-  server: string = 'http://nadevgvbi01b.corp.tangoe.com:8081';
+  server: string = 'http://your_sisense_server:8081';
   tagId: string = 'sisenseScript';
   dashboardPrefix: string = '_gallery';
   skippedTypes: string[] = ['richtexteditor'];
