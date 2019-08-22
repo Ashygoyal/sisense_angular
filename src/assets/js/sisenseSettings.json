@@ -1,5 +1,5 @@
 {
-	"server": "http://nadevgvbi01b.corp.tangoe.com:8081",
+	"server": "http://your_sisense_server:8081",
 	"scriptTagId": "sisenseScript",
 	"dashboardGalleryPrefix": "_gallery",
 	"skippedWidgetTypes": ["richtexteditor"]
