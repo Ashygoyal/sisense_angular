@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+
+  <!--  Navigation Control -->
+  <nav class="navbar navbar-dark">
+    <div class="btn-group btn-group-toggle">
+      <label class="btn-primary" ngbButtonLabel>
+        <a class="navbar-brand" routerLink="/dashboard">Dashboard</a>
+      </label>
+      <label class="btn-primary" ngbButtonLabel>
+        <a class="navbar-brand" routerLink="/widgets">Widget Library</a>
+      </label>
+      <span class="logo"></span>
+      <h2 class="header">Sisense.js + Angular Demo</h2>
+    </div>
+
+    
+    <div>
+      <app-logs></app-logs>
+    </div>
+  </nav>
+
+  <!--  Container for Sisense widgets, must have and id of sisenseApp -->
+  <div id="{{containerId}}">
+  	
+  	<router-outlet></router-outlet>
+  </div>
+
+</div>

@@ -1,0 +1,22 @@
+/* AppComponent's private CSS styles */
+
+
+h2.header {
+  height: 50px;
+  line-height: 50px;
+}
+
+span.logo {
+  width: 50px;
+  background-image: url(/assets/images/angular-logo.png);
+  background-repeat: no-repeat;
+}
+
+span.gitlab { 
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(/assets/images/gitlab.png);
+  background-size: 50px;
+
+}
